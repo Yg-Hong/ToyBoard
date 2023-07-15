@@ -2,10 +2,12 @@ package com.practice.board.dto;
 
 import com.practice.board.entity.Board;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Getter
+@NoArgsConstructor
 public class BoardResponseDto {
     private Long id;
     private String title;
