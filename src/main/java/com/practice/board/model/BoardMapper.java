@@ -1,7 +1,7 @@
 package com.practice.board.model;
 
 import com.practice.board.dto.BoardResponseDto;
-import com.practice.paging.CommonParams;
+import com.practice.board.paging.CommonParams;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.practice.paging;
+package com.practice.board.paging;
 
 import lombok.Getter;
 import lombok.Setter;

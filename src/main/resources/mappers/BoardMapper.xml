@@ -49,7 +49,7 @@
     </sql>
 
     <!-- 게시글 수 조회 -->
-    <select id="count" parameterType="com.practice.paging.CommonParams" resultType="int">
+    <select id="count" parameterType="com.practice.board.paging.CommonParams" resultType="int">
         SELECT
         COUNT(*)
         FROM
@@ -58,7 +58,7 @@
     </select>
 
     <!-- 게시글 리스트 조회 -->
-    <select id="findAll" parameterType="com.practice.paging.CommonParams" resultMap="BoardResultMap">
+    <select id="findAll" parameterType="com.practice.board.paging.CommonParams" resultMap="BoardResultMap">
         SELECT
         id
         , title

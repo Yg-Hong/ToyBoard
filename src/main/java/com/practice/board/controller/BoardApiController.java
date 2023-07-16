@@ -5,11 +5,10 @@ import com.practice.board.dto.BoardResponseDto;
 import com.practice.board.exception.CustomException;
 import com.practice.board.exception.ErrorCode;
 import com.practice.board.model.BoardService;
-import com.practice.paging.CommonParams;
+import com.practice.board.paging.CommonParams;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Map;
 
 @RestController
